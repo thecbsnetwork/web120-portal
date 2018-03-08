@@ -1,0 +1,46 @@
+/*Styles for my AIA.php page*/
+html {
+    font-family:'Libre Franklin', sans-serif;
+}
+
+table.client {
+    width: 90%;
+    margin:1em auto 1em auto; /*Top Right Bottom Left */
+    border-collapse: collapse;
+}
+
+table.audience {
+    width: 90%;
+    margin:1em auto 1em auto; /*Top Right Bottom Left */
+    border-collapse: collapse;
+}
+
+table.client th {
+    width:25%;
+    background-color:#D6AB74;
+    text-align:left;
+}
+
+table.audience th {
+    background-color: #D6AB74;
+    color: #000;
+    text-align:left;
+}
+
+td, th {
+    border: 2px solid #ccc;
+    text-align:left;
+    padding:.5em;
+}
+
+td.audience {
+    width:25%;
+}
+
+td.issues {
+    width:35%;
+}
+
+id.approach {
+    width:50%;
+}

@@ -1,0 +1,68 @@
+/* start RECAPTCHA styles */
+/* writes to small text above reCAPTCHA upon failure */
+		
+form > div {
+    margin:1em;
+}
+/*end RECAPTCHA styles */
+
+form {
+    width:100%;
+    display:inline-block;
+    padding-left:2em;
+}
+
+.contact-feedback h2 {
+    font-family:'Libre Franklin', sans-serif;
+    font-weight:900;
+    font-size:1.5em;
+    color:#CE8B3D;
+    text-shadow: 1.5px .5px #555;
+}
+
+.contact-feedback p {
+    font-family:'Libre Franklin', sans-serif;
+    font-weight:400;
+    font-size:1em;
+    color:#555;
+}
+
+.form-input {
+    margin:.5em;
+}
+
+input[type="submit"], input[type="button"] {
+    font-family:'Libre Franklin', sans-serif;
+    font-weight:900;
+    font-size:1.25em;
+    background-color: #D6AB74;
+    color:#555;
+    border-radius: 7px;
+    border: solid 1px #555;
+    padding:.75em;
+}
+
+#form-name, #form-email, #form-comments {
+    border:1px solid #555;
+    border-radius:7px;
+    padding:1em;
+}
+
+/* begin media queries-form page ONLY */
+
+/* TABLET */
+@media all and (max-width:1023px) {
+    
+    #contact-img {
+        width:100%;
+        margin:auto;
+    }
+
+    form {
+        width:100%;
+        display:block;
+        padding:none;
+        margin:auto;
+    }
+
+}

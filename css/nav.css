@@ -1,0 +1,74 @@
+@charset "utf-8";
+import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+/* Change the background of navigation on the selected/active page */
+ul.topnav li a.selected {
+    background-color: #CE8B3D;
+}
+
+
+/* Remove the margins and padding from the list, and add a dark background color */
+ul.topnav {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050404;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+    float: left;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px; 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+/* Change the background color of links on hover */
+ul.topnav li a:hover {
+    background-color: #260D51;
+}
+
+/* Hide the list item that contains the responsinve icon that closes and opens the nav on small screens */
+ul.topnav li.icon {
+    display: none;
+}
+
+/* When the screen is less than 768 pixels wide, hide all list items except for the first one ("Welcome"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media all and (max-width:768px) {
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+/* The "responsive" class is selected is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media all and (max-width:768px) {
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.icon {
+        position:absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
