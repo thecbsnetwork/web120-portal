@@ -1,5 +1,5 @@
 @charset "utf-8";
-import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
 /* Change the background of navigation on the selected/active page */
 ul.topnav li a.selected {
@@ -26,7 +26,7 @@ ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 18px; 22px;
+    padding: 18px 22px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 20px;

@@ -9,10 +9,10 @@
 <aside>
     <h3>Interests</h3>
     <p>In the field of web design, I'm interested in the topics of graphic design, user experience and interface, and accessibility. I've collected some resources below.</p>
-    <button class="sidebar-button"><a class="sidebar-button"href="https://www.itsnicethat.com/" target="_blank">Graphic Design</a></button>
-    <button class="sidebar-button"><a class="sidebar-button"href="http://alistapart.com/" target="_blank">User Experience</a></button>
-    <button class="sidebar-button"><a class="sidebar-button"href="http://ui-patterns.com/" target="_blank">User Interface</a></button>
-    <button class="sidebar-button"><a class="sidebar-button"href="https://webaim.org/" target="_blank">Accessibility</a></button>
+    <a class="sidebar-button" href="https://www.itsnicethat.com/" target="_blank">Graphic Design</a>
+    <a class="sidebar-button" href="http://alistapart.com/" target="_blank">User Experience</a>
+    <a class="sidebar-button" href="http://ui-patterns.com/" target="_blank">User Interface</a>
+    <a class="sidebar-button" href="https://webaim.org/" target="_blank">Accessibility</a>
 </aside>
 <!--end right column-->
 <?php include 'includes/footer.php'?>

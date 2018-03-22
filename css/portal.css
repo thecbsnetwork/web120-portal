@@ -72,11 +72,11 @@ img {
     margin:auto;
 }
 
-button.sidebar-button {
+.sidebar-button {
     background-color:#CE8B3D;
-    border:none;
+    border:2px solid #CE8B3D;
     border-radius: 7px;
-    padding:16px 32px;
+    padding:16px 16px;
     text-align: center;
     text-decoration: none;
     display:block;
@@ -88,20 +88,13 @@ button.sidebar-button {
     transition-duration: 0.4s;
     cursor:pointer;
     margin:1.5em auto;
-}
-
-a.sidebar-button {
     color:#0e1111;
 }
 
-button.sidebar-button:hover {
+.sidebar-button:hover {
     background-color:#fff;
     color:#000;
     border: 2px solid #CE8B3D;
-}
-
-a.sidebar-button:hover {
-    color:#000;
 }
 
 footer{

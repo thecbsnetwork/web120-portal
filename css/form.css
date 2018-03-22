@@ -61,7 +61,7 @@ input[type="submit"], input[type="button"] {
     form {
         width:100%;
         display:block;
-        padding:none;
+        padding:0;
         margin:auto;
     }
 

@@ -14,9 +14,8 @@
  * @todo none
  */
 
-//Here are the keys for the server: growlingwillow.com
-    $siteKey = "6LdqBTUUAAAAANC5sBhoVYbpj_FszrdfJhCzmTni";
-    $secretKey = "6LdqBTUUAAAAAEnRX4Z4_vDQuvyZBIbdBlMTh7oh";
+//reference other include files here
+include 'credentials.php';
 
 //this helps eliminate PHP date errors
     date_default_timezone_set('America/Los Angeles');
@@ -30,7 +29,7 @@
     $nav1['big/index.php'] = "BIG";
     $nav1['aia.php'] = "AIA";
     $nav1['ux.php'] = "Flowchart";
-    $nav1['fp/index.php'] = "Final Project";
+    $nav1['fp/template.php'] = "Final Project";
     $nav1['contact.php'] = "Contact";
 
 //switch between pages that are in this site--does not include external links for Big and FP
